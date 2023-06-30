@@ -1,0 +1,124 @@
+/* View details link */
+span.student-details {
+    color: blue;
+}
+  
+span.student-details:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* 2 forms */
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Center title of the page*/
+.title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Number of results found text */
+#number-student {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+/* Drop down sections and activity tables container */  
+#container {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+/* Last form, hidden by default (cohorts of the student) */
+#hidden-form {
+    display: none;
+}
+
+/* Activity tables */
+.activity-table {
+    border-collapse: collapse;
+    border: 3px solid #ccc;
+}
+
+.activity-table td,
+.activity-table th {
+    border: 3px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Drop down sections and title */
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.block-section,
+.module-section,
+.course-section {
+    padding: 10px;
+}
+
+details.empty > summary::-webkit-details-marker {
+    display: none;
+}
+
+details.empty > summary {
+    list-style-type: none;
+}
+
+.block-title {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.module-title {
+    font-size: 17px;
+}
+
+.course-title {
+    font-size: 15px; 
+}
+
+/* Completion images */
+.img-completion {
+    width: 20px;
+    height: 20px;
+}
+
+/* Export forms */
+.export-student-cohort-no-blocks {
+    display: none;
+}
+
+.export-student-no-cohort {
+    display: none;
+}
+
+.export-student-cohort-blocks {
+    display: none;
+}
+
+.export-cohort-blocks {
+    display: none;
+}
+
+.export-cohort-no-blocks {
+    display: none;
+}
+  
